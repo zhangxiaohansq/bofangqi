@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{ background:#fafafa; font-size:0.24rem;}
+
+
+header{ background:#99ca00; border-bottom:0.08rem solid #649901; padding:0.16rem;}
+header ul li:first-child{ margin-right:0.16rem;}
+header h1 a{ display:block; width:0.96rem; height:0.48rem; background:url(../img/logo.jpg) no-repeat; background-size:cover; text-indent:-9999em;}
+header ul li:nth-child(2) a{ display:block; width:0.8rem; background:#fff; color:#54535b; text-align:center; line-height:0.48rem; border-radius:0.07rem; font-size:0.2rem;}
+header ul li:nth-child(2){ margin-right:0.16rem;}
+header ul li:nth-child(3){ width:2.48rem; height:0.48rem; background:#fff; border-radius:0.24rem; padding:0 0.24rem; margin-right:0.16rem;}
+header ul li:nth-child(3) input{ width:100%; height:100%; font-size:0.24rem; color:#505050; border:none;}
+header ul li:last-child input{ width:0.8rem; font-size:0.2rem; color:#f1fadb; line-height:0.48rem; background:-webkit-linear-gradient(#f7fae7,#9cb069); border-radius:0.48rem; border:none; cursor:pointer;}
+
+.content{ width:6rem; padding:0.3rem 0.2rem 0.2rem;}
+.content .banner{ margin-bottom:0.2rem;}
+.content .nav-list{ margin-bottom:0.48rem;}
+.content .nav-list li{ margin:0.04rem;}
+.content .nav-list li a{ display:block; border:1px solid #ececec; border-radius:0.06rem; text-align:center; line-height:0.72rem;  color:#595959; padding:0 0.27rem 0 0.26rem;}
+.content .nav-list li a i{ display:inline-block; width:0.35rem; height:0.28rem; background:url(../img/nav_1.jpg) no-repeat; background-size:cover; vertical-align:middle; margin-right:0.2rem;}
+.content .headline{ border-top:1px solid #e1e1e1; box-shadow:0 0 1px #f3f3f3; line-height:0.5rem;}
+.content .headline h3{ color:#5d5d5d; font-size:0.26rem; width:1.88rem; margin-top:-0.3rem; background:#fafafa;}
+.content .headline span{ color:#d4d4d4; font-size:0.26rem; width:0.48rem; margin-top:-0.3rem; background:#fafafa; padding-left:0.1rem;}
+.content .games{ margin-bottom:0.7rem;}
+.content .games ul{ padding:0.23rem 0;}
+.content .games a{ display:block; width:1.5rem;}
+.content .games a img{ border-radius:0.3rem;}
+.content .games a p{ color:#505050; font-size:0.2rem; line-height:0.54rem;}
+.content .games a i{ display:block; width:100%; height:0.26rem; background:url(../img/yx-p.jpg) no-repeat; background-size:cover;}
